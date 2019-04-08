@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListItemTest">
+
+
+    <ImageView
+        android:id="@+id/gameIconListImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="The Icon for the Game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/gameNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="What the game is called"
+        android:text="Name of The Game"
+        android:textColor="@color/colorClickableText"
+        app:layout_constraintEnd_toEndOf="@+id/gameDevTextView"
+        app:layout_constraintStart_toEndOf="@+id/gameIconListImage"
+        app:layout_constraintTop_toTopOf="@+id/gameIconListImage" />
+
+    <TextView
+        android:id="@+id/gameDevTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="The Studio that made the game"
+        android:text="Name of the Developer"
+        android:textColor="@color/colorClickableText"
+        app:layout_constraintBottom_toBottomOf="@+id/gameIconListImage"
+        app:layout_constraintStart_toEndOf="@+id/gameIconListImage"
+        app:layout_constraintTop_toBottomOf="@+id/gameNameTextView" />
+
+    <TextView
+        android:id="@+id/gamePriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="How much the game will cost"
+        android:text="Price€"
+        android:textColor="@color/colorClickableText"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gameIconListImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gameIconListImage" />
+</android.support.constraint.ConstraintLayout>
