@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Steam Sale App</string>
+    <string name="developersDescription">Developers:</string>
+    <string name="nameDescription">Name:</string>
+    <string name="mainGameName">ExampleGameName</string>
+    <string name="mainGameStudio">ExampleGameStudio</string>
+    <string name="ratingDescription">Rating:</string>
+    <string name="mainGameRating">Example%</string>
+    <string name="originalPriceDescription">Original Price:</string>
+    <string name="mainGameOriginalPrice">Example€</string>
+    <string name="saleDescription">Sale:</string>
+    <string name="mainGameSale">Example% Off</string>
+    <string name="saveButtonText">Save</string>
 </resources>
