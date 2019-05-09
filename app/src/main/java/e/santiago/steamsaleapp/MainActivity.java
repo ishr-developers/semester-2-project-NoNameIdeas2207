@@ -1,5 +1,6 @@
 package e.santiago.steamsaleapp;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -18,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         //TODO: Either you need a complete url or you need to build one from the user data.
     }
+
+
 }
+
+

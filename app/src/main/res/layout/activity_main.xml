@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackgroundBig"
     tools:context=".MainActivity">
 
-    <!--TODO: If you are planning on displaying a list of data, you will need a recycler view element -->
     <EditText
         android:id="@+id/searchEditText"
         android:layout_width="wrap_content"
@@ -18,5 +18,17 @@
         android:hint="Search For Games"
         android:inputType="text|textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorText"
+        android:background="@color/colorBackgroundSmall"
+        android:textColorHint="@color/colorTextHint"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainRecyclerView"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
 </android.support.constraint.ConstraintLayout>

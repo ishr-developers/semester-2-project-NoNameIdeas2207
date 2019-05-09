@@ -3,12 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorBackgroundBig">#222427</color>
-    <color name="colorBackgroundSmall">#222324</color>
+    <color name="colorBackgroundSmall">#222427</color>
+    <color name="colorBackgroundBig">#222324</color>
     <color name="colorButton">#193754</color>
     <color name="colorClickableText">#2876a9</color>
     <color name="colorClickableTextClicked">#edb34b</color>
     <color name="colorOutline">#58595c</color>
     <color name="colorSaleText">#a0d500</color>
     <color name="colorSaleHighlight">#4c6c1a</color>
+    <color name="colorText">#EFEFEF</color>
+    <color name="colorTextHint">#9F9F9F</color>
 </resources>
